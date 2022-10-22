@@ -1,0 +1,124 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  color: #000;
+}
+
+.navbar {
+  background-color: #FF5A60;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.navbar-brand {
+  margin-left: 15px;
+  color: rgba(255, 255, 255, 0.918);
+  margin-right: 2rem;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.navbar-toggler {
+  color: rgba(255, 255, 255, 0.171);
+}
+
+.nav-link{
+  position: relative;
+  color:#f9fbff; 
+  text-decoration: none;
+  padding:2% 2% 2% 2%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1.2rem;
+  padding-left: 1.2rem;
+}
+
+.nav-link:after{
+  content:"";
+  position:absolute;
+  color: white;
+  background-color:#FFF3F4 ;
+  height:3px;
+  width:0;
+  left:0;
+  bottom:-2px;
+  transition:0.5s;
+}
+
+.nav-link:hover::after{
+  left:3px;
+  right:3px;
+  box-sizing: content-box;
+  color: white;
+  width:100%;
+}
+
+.nav-link:visited{
+  color:white;
+} 
+
+.prof_img {
+  width: 4%;
+}
+
+.nm{
+    color: #FF5A60;
+    font-size: 15px;
+}
+
+.student-profile .card {
+    background-color:#fffefe; 
+    border-radius: 10px;
+}
+
+.card-body{
+    padding: 15px;
+}
+
+.ques{
+    color: #FF5A60;
+    padding: 5px;;
+}
+
+.student-profile .card .profile_img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: 10px auto;
+  /* border: 10px solid #ccc; */
+  border-radius: 50%;
+}
+
+.card-header{
+  object-fit: cover;
+  margin: 10px auto;
+  /* border: 10px solid #ccc; */
+  border-radius: 50%;
+  width: 100%;
+}
+
+.student-profile .card h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.student-profile .card p {
+  font-size: 16px;
+  color: #000;
+}
+
+.student-profile .table th,
+.student-profile .table td {
+  font-size: 14px;
+  padding: 5px 10px;
+  color: #000;
+}
+

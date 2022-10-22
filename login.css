@@ -1,0 +1,50 @@
+body {
+  background-image: url("img/bg.png");
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #000000;
+}
+
+.form{
+  background-color: #FF5A60;
+  border-radius: 5%;
+  opacity: 90%;
+  width: 31rem;
+  margin-top: 7rem;
+}
+
+/* .btn_btn-primary
+{
+  background-color:#FFB6B9; 
+  color:black;
+  border-radius: 2rem;
+  padding:2px 2px 2px 2px;
+  margin-top: 1.7rem;
+  border:none;
+  font-size: 0.9rem;
+} */
+
+.subsub{
+  text-decoration: none;
+}
+.name {
+    font-size: 4.5rem;
+    color:#FF5A60;
+    font-weight: 800;
+    margin-top: 6rem;
+}
+
+.subpar{
+    font-size: 1.5rem;
+    color: whitesmoke;
+    margin-right: 3.7rem;
+}
+
+.btn_btn-primary{
+    background-color: white;
+    margin-top: 2rem;
+    margin-left: 23rem;
+}

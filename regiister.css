@@ -1,0 +1,61 @@
+body {
+    background-image: url("img/bg.png");
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #000000;
+  }
+
+  .form{
+    background-color: #FF5A60;
+    border-radius: 15px;
+    opacity: 90%;
+    width: 31rem;
+    margin-top: 6rem;
+  }
+
+
+ .name {
+      font-size: 4.5rem;
+      color:#FF5A60;
+      font-weight: 800;
+      margin-top: 6rem;
+      /* position: fixed; */
+  }
+
+  .subpar{
+      font-size: 1.5rem;
+      color: whitesmoke;
+      margin-right: 3.7rem;
+      
+      /* position: fixed; */
+  }
+
+  .fix{
+    width: 40%;
+    position: fixed;
+  }
+
+  .btn_btn-primary{
+      background-color: white;
+      margin-top: 2rem;
+      margin-left: 23rem;
+  }
+
+  .btn_btn-primary{
+    text-decoration: none !important;
+    color: #FF5A60;
+    background-color: white;
+    border: #FF5A60 solid 2px;
+    padding: 5px 15px;
+    border-radius: 4px;
+  }
+
+  .btn_btn-primary a{
+    text-decoration: none !important;
+    color: #FF5A60;
+    background-color: white; 
+
+  }
